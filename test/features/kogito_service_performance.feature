@@ -37,7 +37,7 @@ Feature: Kogito Service Performance
       | native   | minutes | requests |
 #      | disabled | 10      | 40000    |
 #      | disabled | 10      | 80000    |
-#      | disabled | 10      | 160000   |
+      | disabled | 10      | 160000   |
       | disabled | 10      | 320000   |
 
     @native
@@ -45,7 +45,7 @@ Feature: Kogito Service Performance
       | native  | minutes | requests |
 #      | enabled | 20      | 40000    |
 #      | enabled | 20      | 80000    |
-#      | enabled | 20      | 160000   |
+      | enabled | 20      | 160000   |
       | enabled | 20      | 320000   |
 
 #####
@@ -82,7 +82,7 @@ Feature: Kogito Service Performance
       | native   | minutes | requests |
 #      | disabled | 10      | 40000    |
 #      | disabled | 10      | 80000    |
-#      | disabled | 10      | 160000   |
+      | disabled | 10      | 160000   |
       | disabled | 10      | 320000   |
 
     @native
@@ -90,7 +90,7 @@ Feature: Kogito Service Performance
       | native  | minutes | requests |
 #      | enabled | 20      | 40000    |
 #      | enabled | 20      | 80000    |
-#      | enabled | 20      | 160000   |
+      | enabled | 20      | 160000   |
       | enabled | 20      | 320000   |
 
 #####
@@ -122,7 +122,7 @@ Feature: Kogito Service Performance
       | minutes | requests |
 #      | 10      | 40000    |
 #      | 10      | 80000    |
-#      | 10      | 160000   |
+      | 10      | 160000   |
       | 10      | 320000   |
 
 #####
@@ -157,5 +157,5 @@ Feature: Kogito Service Performance
       | minutes | requests |
 #      | 10      | 40000    |
 #      | 10      | 80000    |
-#      | 10      | 160000   |
+      | 10      | 160000   |
       | 10      | 320000   |
