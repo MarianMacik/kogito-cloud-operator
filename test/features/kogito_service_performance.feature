@@ -29,8 +29,8 @@ Feature: Kogito Service Performance
       }
       """
 
-    Then Service "process-quarkus-example" contains <requests> instances of process with name "orders" within 1 minutes
-    And Service "process-quarkus-example" contains <requests> instances of process with name "orderItems" within 1 minutes
+    #Then Service "process-quarkus-example" contains <requests> instances of process with name "orders" within 1 minutes
+    #And Service "process-quarkus-example" contains <requests> instances of process with name "orderItems" within 1 minutes
     #And All human tasks on path "orderItems" with path task name "Verify_order" are successfully "completed" with timing "true"
 
 
@@ -38,16 +38,16 @@ Feature: Kogito Service Performance
       | profile | requests |
       | default | 40000    |
       | default | 80000    |
-#      | default | 160000   |
-#      | default | 320000   |
+      | default | 160000   |
+      | default | 320000   |
 
     @native
     Examples:
       | profile | requests |
       | native  | 40000    |
       | native  | 80000    |
-#      | native | 160000   |
-#      | native | 320000   |
+      | native | 160000   |
+      | native | 320000   |
 
 #####
 
@@ -89,16 +89,16 @@ Feature: Kogito Service Performance
       | profile     | requests |
       | persistence | 40000    |
       | persistence | 80000    |
-#      | persistence | 160000   |
-#      | persistence | 320000   |
+      | persistence | 160000   |
+      | persistence | 320000   |
 
     @native
     Examples:
       | profile            | requests |
       | native,persistence | 40000    |
       | native,persistence | 80000    |
-#      | native,persistence | 160000   |
-#      | native,persistence | 320000   |
+      | native,persistence | 160000   |
+      | native,persistence | 320000   |
 
 #####
 
@@ -123,16 +123,16 @@ Feature: Kogito Service Performance
       }
       """
 
-    Then Service "process-springboot-example" contains <requests> instances of process with name "orders" within 1 minutes
-    And Service "process-springboot-example" contains <requests> instances of process with name "orderItems" within 1 minutes
+    #Then Service "process-springboot-example" contains <requests> instances of process with name "orders" within 1 minutes
+    #And Service "process-springboot-example" contains <requests> instances of process with name "orderItems" within 1 minutes
     #And All human tasks on path "orderItems" with path task name "Verify_order" are successfully "completed" with timing "true"
 
     Examples:
       | requests |
       | 40000    |
       | 80000    |
-#      | 160000   |
-#      | 320000   |
+      | 160000   |
+      | 320000   |
 
 #####
 
@@ -173,5 +173,5 @@ Feature: Kogito Service Performance
       | requests |
       | 40000    |
       | 80000    |
-#      | 160000   |
-#      | 320000   |
+      | 160000   |
+      | 320000   |
