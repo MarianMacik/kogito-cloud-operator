@@ -44,9 +44,9 @@ Feature: Kogito Service Performance
     @native
     Examples:
       | profile | requests |
-#      | native  | 40000    |
-#      | native  | 80000    |
-#      | native | 160000   |
+      | native  | 40000    |
+      | native  | 80000    |
+      | native | 160000   |
       | native | 320000   |
 
 #####
@@ -96,9 +96,9 @@ Feature: Kogito Service Performance
     @native
     Examples:
       | profile            | requests |
-#      | native,persistence | 40000    |
-#      | native,persistence | 80000    |
-#      | native,persistence | 160000   |
+      | native,persistence | 40000    |
+      | native,persistence | 80000    |
+      | native,persistence | 160000   |
       | native,persistence | 320000   |
 
 #####
@@ -130,10 +130,10 @@ Feature: Kogito Service Performance
 
     Examples:
       | requests |
-#      | 40000    |
-#      | 80000    |
-#      | 160000   |
-#      | 320000   |
+      | 40000    |
+      | 80000    |
+      | 160000   |
+      | 320000   |
 
 #####
 
@@ -173,7 +173,7 @@ Feature: Kogito Service Performance
 
     Examples:
       | requests |
-#      | 40000    |
-#      | 80000    |
+      | 40000    |
+      | 80000    |
       | 160000   |
       | 320000   |
